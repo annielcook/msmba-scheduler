@@ -5,7 +5,7 @@ import fs from "fs";
 const {readCSV, parseCourse} = exportedForTesting;
 
 test('Reads HBS csv', async () => {
-    const filePath = path.join(__dirname, 'static', 'courses', 'HBS-2022.csv');
+    const filePath = path.join(__dirname,'..', 'public', 'static', 'courses', 'HBS-2022.csv');
     const csvFile = fs.readFileSync(filePath);
     const csvData = csvFile.toString();
     const result = await readCSV(csvData);

@@ -7,12 +7,12 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import {parseCourses} from "./HBSCourses"
 import Paper from "@mui/material/Paper";
-import {hbsCoursesFile, seasCoursesListFile, seasCoursesScheduleFile} from "./Consts";
+import {hbsCoursesFilePath, seasCoursesListFile, seasCoursesScheduleFile} from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {loadFile} from "./IO";
 
 
-const hbsCoursesCsv = hbsCoursesFile;
+const hbsCoursesCsv = loadFile(hbsCoursesFilePath);
 const seasCoursesListJson = seasCoursesListFile;
 const seasCoursesScheduleJson = seasCoursesScheduleFile;
 
