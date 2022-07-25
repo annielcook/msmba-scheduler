@@ -1,0 +1,33 @@
+[
+  {
+    "id": "MSMBA-ENG-Required-DTV",
+    "name": "Designing Tech Venture",
+    "school": "MSMBAENG",
+    "prof": "Unknown",
+    "semester": "F",
+    "times": [
+      {
+        "day": 0,
+        "startHour": "15:45",
+        "endHour": "17:00"
+      },
+      {
+        "day": 2,
+        "startHour": "15:45",
+        "endHour": "17:00"
+      }
+    ]
+  },
+  {
+    "id": "MSMBA-ENG-Required-DTV",
+    "name": "Launch Lab 2",
+    "school": "MSMBAENG",
+    "prof": "Russ Wilcox, Alan MacCormack",
+    "semester": "S",
+    "times": [{
+      "day": 0,
+      "startHour": "16:00",
+      "endHour": "18:00"
+    }]
+  }
+]

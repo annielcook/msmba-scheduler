@@ -3,8 +3,9 @@ export const seasCoursesListURL = 'https://info.seas.harvard.edu/courses/api/cou
 export const seasCoursesScheduleURL = 'https://info.seas.harvard.edu/courses/api/schedule/courses';
 
 export const hbsCoursesFilePath = require('./static/courses/HBS-2022.csv');
-export const seasCoursesListFile = require('./static/courses/SEAS-2022-List.json');
-export const seasCoursesScheduleFile = require('./static/courses/SEAS-2022-Schedule.json');
+export const seasCoursesListJson = require('./static/courses/SEAS-2022-List.json');
+export const seasCoursesScheduleJson = require('./static/courses/SEAS-2022-Schedule.json');
+export const requiredCoursesJson = require('./static/courses/MSMBA-ENG-Required-2022.json')
 
 export const currentAcademicYear = 2022;
 export const hourFormat = "HH:mm";

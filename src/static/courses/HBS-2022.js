@@ -1,3 +1,8 @@
+/**
+ * This is a patch bc for some reason I could not load the CSV file on the deployment environment.
+ * To be fixed in next versions.
+ * @type {string}
+ */
 export const HBSCoursesCsv = "SectionID,Term,Title,Faculty,Day,Start,OtherEventsDay,OtherEventsStart,LongCourseTitle\n" +
     "755368,Spring,\"2032: 5TechReshapeWorld Q3Q4,3\",Shikhar Ghosh,X,3:10 PM,,,2032: Five Technologies that Will Reshape the World in the Next Decade\n" +
     "755011,Spring,\"Adv Neg: Grt DealMkers Q3Q4, 3\",James Sebenius,X,1:30 PM,,,\"Advanced Negotiation: Great Dealmakers, Diplomats, and Deals\"\n" +

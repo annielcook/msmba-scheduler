@@ -1,63 +1,13 @@
 import * as React from "react";
 import Paper from "@mui/material/Paper";
-import {styled} from "@mui/material/styles";
 import {ViewState} from "@devexpress/dx-react-scheduler";
 import {Appointments, Scheduler, Toolbar, WeekView, TodayButton} from "@devexpress/dx-react-scheduler-material-ui";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material";
-import { amber, deepOrange, cyan } from '@mui/material/colors';
+import {Appointment, DayScaleCell} from "./CalendarStyles";
 
 const daysFall = ["2023-01-02", "2023-01-03", "2023-01-04", "2023-01-05", "2023-01-06"]
 const daysSpring = ["2023-01-09", "2023-01-10", "2023-01-11", "2023-01-12", "2023-01-13"]
 
-const classes = {
-    HBS: `SchoolName-HBS`,
-    SEAS: `SchoolName-SEAS`,
-    MIT: `SchoolName-MIT`,
-};
-
-const StyledWeekViewDayScaleCell = styled(WeekView.DayScaleCell)(
-    ({theme}) => ({
-        [`.Cell-dayOfWeek`]: {
-            fontWeight: 400,
-            fontSize: "1.8rem",
-            lineHeight: 1.2
-        },
-        [`.Cell-dayOfMonth`]: {
-            display: "none"
-        }
-    })
-);
-
-const StyledAppointment = styled(Appointments.Appointment)(
-    ({theme}) => ({
-        [`&.${classes.HBS}`]: {
-            backgroundColor: deepOrange[500],
-            '&:hover': {
-                backgroundColor: deepOrange[600]
-            }
-        },
-        [`&.${classes.SEAS}`]: {
-            backgroundColor: amber[500],
-            '&:hover': {
-                backgroundColor: amber[600]
-            }
-        },
-        [`&.${classes.MIT}`]: {
-            backgroundColor: cyan[500],
-            '&:hover': {
-                backgroundColor: cyan[600]
-            }
-        }
-    })
-);
-
-const DayScaleCell = (props) => {
-    return <StyledWeekViewDayScaleCell {...props} />;
-};
-
-const Appointment = ({ data, ...restProps }) => {
-    return <StyledAppointment className={classes[data.school]} {...restProps} />;
-}
 
 function getCalendarData(course) {
     return course.times.map((time) => {

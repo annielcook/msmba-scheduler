@@ -7,15 +7,9 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import {parseCourses} from "./HBSCourses"
 import Paper from "@mui/material/Paper";
-import {hbsCoursesFilePath, seasCoursesListFile, seasCoursesScheduleFile} from "./Consts";
+import {seasCoursesListJson, seasCoursesScheduleJson, requiredCoursesJson} from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
-import {loadFile} from "./IO";
-
-
-
-const seasCoursesListJson = seasCoursesListFile;
-const seasCoursesScheduleJson = seasCoursesScheduleFile;
 
 
 function Schedule() {
@@ -96,7 +90,7 @@ function Schedule() {
                 </Paper>
             </Grid>
             <Grid item xs={6}>
-                <Calendar courses={show.map((courseId) => allCourses[courseId])}/>
+                <Calendar courses={show.map((courseId) => allCourses[courseId]).concat(requiredCoursesJson)}/>
             </Grid>
         </Grid>
     );
