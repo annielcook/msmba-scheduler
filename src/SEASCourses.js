@@ -25,10 +25,12 @@ function getCompleteRawCoursesInfo(rawCoursesList, rawCoursesSchedule) {
         completeCoursesMap[courseInfo.courseNumber] = {...courseInfo};
     }
     for (const courseTimes of rawCoursesSchedule) {
-        completeCoursesMap[courseTimes.courseNumber].semesterTimes = [...courseTimes.semesters];
-        completeCoursesMap[courseTimes.courseNumber].isUndergraduate = courseTimes.isUndergraduate;
+        if (courseTimes.courseNumber in completeCoursesMap) {
+            completeCoursesMap[courseTimes.courseNumber].semesterTimes = [...courseTimes.semesters];
+            completeCoursesMap[courseTimes.courseNumber].isUndergraduate = courseTimes.isUndergraduate;
+        }
     }
-    return Object.values(completeCoursesMap);
+    return Object.values(completeCoursesMap).filter(e => ("semesterTimes" in e));
 }
 
 function getRelevantSemestersInfo(courseData) {
@@ -92,10 +94,14 @@ function parseCourse(courseData) {
     });
 }
 
-export async function getSEASCourses() {
+export async function getSEASCoursesFromURL() {
     const rawCoursesList = await getJson(seasCoursesListURL);
     const rawCoursesSchedule = await getJson(seasCoursesScheduleURL);
-    const completeCoursesInfo = getCompleteRawCoursesInfo(rawCoursesList, rawCoursesSchedule);
+    return getSEASCoursesFromJsons(rawCoursesList, rawCoursesSchedule);
+}
+
+export function getSEASCoursesFromJsons(coursesListJson, coursesScheduleJson) {
+    const completeCoursesInfo = getCompleteRawCoursesInfo(coursesListJson, coursesScheduleJson);
     return completeCoursesInfo.map((course) => (parseCourse(course))).flat();
 }
 

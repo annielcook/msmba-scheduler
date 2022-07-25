@@ -5,13 +5,16 @@ import CourseList from './CourseList'
 import * as React from "react";
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
-import {parseCourses, loadFile} from "./HBSCourses"
+import {parseCourses} from "./HBSCourses"
 import Paper from "@mui/material/Paper";
-import { hbsCoursesFile } from "./Consts";
-import {getSEASCourses} from "./SEASCourses";
+import {hbsCoursesFile, seasCoursesListFile, seasCoursesScheduleFile} from "./Consts";
+import {getSEASCoursesFromJsons} from "./SEASCourses";
+import {loadFile} from "./IO";
 
 
 const hbsCoursesCsv = loadFile(hbsCoursesFile);
+const seasCoursesListJson = seasCoursesListFile;
+const seasCoursesScheduleJson = seasCoursesScheduleFile;
 
 
 function Schedule() {
@@ -20,24 +23,19 @@ function Schedule() {
     const [allCourses, updateAllCourses] = React.useState({});
 
     React.useEffect(() => {
-        const getHBSCourses = async () => {
-            const courses = await parseCourses(hbsCoursesCsv);
+        const getAllCourses = async () => {
+            const hbsCourses = await parseCourses(hbsCoursesCsv);
+            const seasCourses = await getSEASCoursesFromJsons(seasCoursesListJson, seasCoursesScheduleJson);
             let coursesMap = {};
-            for (const course of courses) {
+            for (const course of hbsCourses) {
+                coursesMap[course.id] = course;
+            }
+            for (const course of seasCourses) {
                 coursesMap[course.id] = course;
             }
             updateAllCourses(coursesMap);
         }
-        const getSeasCourses = async () => {
-            const courses = await getSEASCourses();
-            let coursesMap = {};
-            for (const course of courses) {
-                coursesMap[course.id] = course;
-            }
-            updateAllCourses(coursesMap);
-        }
-        getHBSCourses();
-        getSeasCourses();
+        getAllCourses();
     }, []);
 
     const coursePicker = (
