@@ -9,6 +9,7 @@ import {parseCourses} from "./HBSCourses"
 import Paper from "@mui/material/Paper";
 import {hbsCoursesFilePath, seasCoursesListFile, seasCoursesScheduleFile} from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
+import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
 import {loadFile} from "./IO";
 
 
@@ -24,8 +25,7 @@ function Schedule() {
 
     React.useEffect(() => {
         const getAllCourses = async () => {
-            const hbsCoursesCsv = await loadFile(hbsCoursesFilePath);
-            const hbsCourses = await parseCourses(hbsCoursesCsv);
+            const hbsCourses = await parseCourses(HBSCoursesCsv);
             const seasCourses = await getSEASCoursesFromJsons(seasCoursesListJson, seasCoursesScheduleJson);
             let coursesMap = {};
             for (const course of hbsCourses) {
