@@ -10,12 +10,15 @@ import Paper from "@mui/material/Paper";
 import {seasCoursesListJson, seasCoursesScheduleJson, requiredCoursesJson} from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
+import { useCookies } from 'react-cookie';
 
 
 function Schedule() {
-    const [favorites, setFavorites] = React.useState([]);
-    const [show, setShow] = React.useState([]);
+    const [cookies, setCookie] = useCookies(['user']);
+    const [favorites, setFavorites] = React.useState(Object.keys(cookies).length === 0 ? [] : cookies.Favorites);
+    const [show, setShow] = React.useState(Object.keys(cookies).length === 0 ? [] : cookies.Show);
     const [allCourses, updateAllCourses] = React.useState({});
+
 
     React.useEffect(() => {
         const getAllCourses = async () => {
@@ -32,6 +35,10 @@ function Schedule() {
         }
         getAllCourses();
     }, []);
+
+    if (Object.keys(allCourses).length === 0) {
+        return <p>Loading...</p>;
+    }
 
     const coursePicker = (
         <CourseList items={Object.values(allCourses)}
@@ -53,6 +60,8 @@ function Schedule() {
                         }
                         setFavorites(newFavorites);
                         setShow(newShow);
+                        setCookie('Favorites', newFavorites, { path: '/' });
+                        setCookie('Show', newShow, { path: '/' });
                     }}
                     selectIcon={<FavoriteBorder/>}
                     selectCheckedIcon={<Favorite/>}
@@ -71,6 +80,7 @@ function Schedule() {
                             newShow.splice(currentIndex, 1);
                         }
                         setShow(newShow);
+                        setCookie('Show', newShow, { path: '/' });
                     }}
                     useSwitch
         />);
