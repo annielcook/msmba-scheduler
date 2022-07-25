@@ -12,7 +12,7 @@ import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {loadFile} from "./IO";
 
 
-const hbsCoursesCsv = loadFile(hbsCoursesFile);
+const hbsCoursesCsv = hbsCoursesFile;
 const seasCoursesListJson = seasCoursesListFile;
 const seasCoursesScheduleJson = seasCoursesScheduleFile;
 
