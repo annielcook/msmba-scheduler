@@ -1,12 +1,15 @@
 import './App.css';
 import * as React from "react";
 import Schedule from "./Schedule";
+import { CookiesProvider } from "react-cookie";
 
 
 function App() {
     return (
     <div className="App">
-        <Schedule/>
+        <CookiesProvider>
+            <Schedule/>
+        </CookiesProvider>
     </div>
   );
 }
