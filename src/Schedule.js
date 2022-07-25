@@ -12,7 +12,7 @@ import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {loadFile} from "./IO";
 
 
-const hbsCoursesCsv = loadFile(hbsCoursesFilePath);
+
 const seasCoursesListJson = seasCoursesListFile;
 const seasCoursesScheduleJson = seasCoursesScheduleFile;
 
@@ -24,6 +24,7 @@ function Schedule() {
 
     React.useEffect(() => {
         const getAllCourses = async () => {
+            const hbsCoursesCsv = await loadFile(hbsCoursesFilePath);
             const hbsCourses = await parseCourses(hbsCoursesCsv);
             const seasCourses = await getSEASCoursesFromJsons(seasCoursesListJson, seasCoursesScheduleJson);
             let coursesMap = {};

@@ -2,7 +2,7 @@
 export const seasCoursesListURL = 'https://info.seas.harvard.edu/courses/api/courses/public';
 export const seasCoursesScheduleURL = 'https://info.seas.harvard.edu/courses/api/schedule/courses';
 
-export const hbsCoursesFilePath = process.env.PUBLIC_URL + '/static/courses/HBS-2022.csv';
+export const hbsCoursesFilePath = require('./static/courses/HBS-2022.csv');
 export const seasCoursesListFile = require('./static/courses/SEAS-2022-List.json');
 export const seasCoursesScheduleFile = require('./static/courses/SEAS-2022-Schedule.json');
 
