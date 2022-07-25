@@ -168,7 +168,7 @@ test('Parse course', () => {
     expect(resultSpringInfo.school).toEqual("SEAS");
     expect(resultSpringInfo.prof).toEqual("Fabian Wermelinger");
     expect(resultSpringInfo.name).toEqual(`${dummyCourseList[0].courseNumber} ${dummyCourseList[0].title}`);
-    expect(resultSpringInfo.id).toEqual(`SEAS-${dummyCourseTimes[0].courseNumber.replace(' ', '-')}`);
+    expect(resultSpringInfo.id).toEqual(`SEAS-Spring-${dummyCourseTimes[0].courseNumber.replace(' ', '-')}`);
     expect(resultSpringInfo.times).toEqual(
         expect.arrayContaining([
             {

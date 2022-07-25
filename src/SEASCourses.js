@@ -1,4 +1,4 @@
-import {currentAcademicSemesters, hourFormat, seasCoursesListURL, seasCoursesScheduleURL} from "./Consts";
+import {currentAcademicYear, hourFormat, seasCoursesListURL, seasCoursesScheduleURL} from "./Consts";
 import moment from "moment";
 import getTimeText from "./CoursesTimeText";
 
@@ -35,8 +35,8 @@ function getCompleteRawCoursesInfo(rawCoursesList, rawCoursesSchedule) {
 
 function getRelevantSemestersInfo(courseData) {
     let semestersInfo = [
-        {...currentAcademicSemesters[0], instructors: [], times: []},
-        {...currentAcademicSemesters[1], instructors: [], times: []},
+        {year: currentAcademicYear, term: "Fall", instructors: [], times: []},
+        {year: currentAcademicYear, term: "Spring", instructors: [], times: []},
     ];
     const instructorsFall = courseData.semesters.filter(e =>
         (e.offeredStatus === "Yes" && e.academicYear === semestersInfo[0].year && e.term === semestersInfo[0].term));
@@ -83,7 +83,7 @@ function parseCourse(courseData) {
     return semestersInfos.map((semesterInfo) => {
         const times = parseTimes(semesterInfo.times);
         return {
-            id: `SEAS-${courseData.courseNumber.replace(' ', '-')}`,
+            id: `SEAS-${semesterInfo.term}-${courseData.courseNumber.replace(' ', '-')}`,
             name: `${courseData.courseNumber} ${courseData.title}`,
             school: "SEAS",
             prof: instructorsToString(semesterInfo.instructors),
