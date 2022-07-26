@@ -7,10 +7,17 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import {parseCourses} from "./HBSCourses"
 import Paper from "@mui/material/Paper";
-import {seasCoursesListJson, seasCoursesScheduleJson, requiredCoursesJson} from "./Consts";
+import {
+    seasCoursesListJson,
+    seasCoursesScheduleJson,
+    requiredCoursesJson,
+    mitCoursesJsonURL,
+    mitCoursesScheduleJson
+} from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
 import { useCookies } from 'react-cookie';
+import {getMITCourses} from "./MITCourses";
 
 
 function Schedule() {
@@ -24,11 +31,15 @@ function Schedule() {
         const getAllCourses = async () => {
             const hbsCourses = await parseCourses(HBSCoursesCsv);
             const seasCourses = await getSEASCoursesFromJsons(seasCoursesListJson, seasCoursesScheduleJson);
+            const mitCourses = await getMITCourses(mitCoursesScheduleJson);
             let coursesMap = {};
             for (const course of hbsCourses) {
                 coursesMap[course.id] = course;
             }
             for (const course of seasCourses) {
+                coursesMap[course.id] = course;
+            }
+            for (const course of mitCourses) {
                 coursesMap[course.id] = course;
             }
             updateAllCourses(coursesMap);

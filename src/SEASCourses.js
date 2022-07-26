@@ -1,6 +1,7 @@
 import {currentAcademicYear, hourFormat, seasCoursesListURL, seasCoursesScheduleURL} from "./Consts";
 import moment from "moment";
 import getTimeText from "./CoursesTimeText";
+import {getJson} from "./IO";
 
 const days = {
     M: 0,
@@ -8,15 +9,6 @@ const days = {
     W: 2,
     R: 3,
     F: 4,
-}
-
-async function getJson(url) {
-    try {
-        let response = await fetch(url);
-        return await response.json();
-    } catch (error) {
-        console.error(error);
-    }
 }
 
 function getCompleteRawCoursesInfo(rawCoursesList, rawCoursesSchedule) {
