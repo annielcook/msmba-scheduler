@@ -1,0 +1,870 @@
+[
+  {
+    "name": "6.100A Introduction to Computer Science Programming in Python\n(6.0001)",
+    "school": "MIT",
+    "prof": "A. Bell",
+    "semester": "F",
+    "times": "MW3-4.30 (ENDS OCT 28)"
+  },
+  {
+    "name": "6.100B Introduction to Computational Thinking and Data Science\n(6.0002)",
+    "school": "MIT",
+    "prof": "A. Bell",
+    "semester": "F",
+    "times": "MW3-4.30 (BEGINS OCT 31)"
+  },
+  {
+    "name": "6.100L Introduction to Computer Science and Programming\n(New)",
+    "school": "MIT",
+    "prof": "A. Bell",
+    "semester": "F",
+    "times": "MW3-4.30"
+  },
+  {
+    "name": "6.1010 Fundamentals of Programming\n(6.009)",
+    "school": "MIT",
+    "prof": "A. Hartz",
+    "semester": "F",
+    "times": "MW9"
+  },
+  {
+    "name": "6.1040 Software Studio\n(6.170)",
+    "school": "MIT",
+    "prof": "D. Jackson",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.1060 Software Performance Engineering\n(6.172)",
+    "school": "MIT",
+    "prof": "C. Leiserson",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.1120 Dynamic Computer Language Engineering\n(6.818)",
+    "school": "MIT",
+    "prof": "M. Carbin",
+    "semester": "F",
+    "times": "MTWRF1"
+  },
+  {
+    "name": "6.1200[J] Mathematics for Computer Science\n(6.042)",
+    "school": "MIT",
+    "prof": "F. Leighton",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.1210 Introduction to Algorithms\n(6.006)",
+    "school": "MIT",
+    "prof": "M. Karchmer",
+    "semester": "F",
+    "times": "TR11"
+  },
+  {
+    "name": "6.1220[J] Design and Analysis of Algorithms\n(6.046)",
+    "school": "MIT",
+    "prof": "B. Tidor",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.1420 Fixed Parameter and Fine-grained Computation\n(6.054)",
+    "school": "MIT",
+    "prof": "R. Williams",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.5210[J] Advanced Algorithms\n(6.854)",
+    "school": "MIT",
+    "prof": "D. Karger",
+    "semester": "F",
+    "times": "MWF2.30-4"
+  },
+  {
+    "name": "6.5240 Sublinear Time Algorithms\n(6.855)",
+    "school": "MIT",
+    "prof": "R. Rubinfeld",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "6.5250[J] Distributed Algorithms\n(6.852)",
+    "school": "MIT",
+    "prof": "M. Ghaffari, N. A. Lynch",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.5400[J] Theory of Computation\n(6.840)",
+    "school": "MIT",
+    "prof": "M. Sipser",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.1600 Foundations of Computer Security\n(6.053)",
+    "school": "MIT",
+    "prof": "N. Zeldovich",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "6.5620[J] Cryptography and Cryptanalysis\n(6.875)",
+    "school": "MIT",
+    "prof": "V. Vaikuntanathan",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.1810 Operating System Engineering\n(6.039)",
+    "school": "MIT",
+    "prof": "M. Kaashoek",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.1850 Computer Systems and Society\n(6.052)",
+    "school": "MIT",
+    "prof": "K. Lacurts",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.5810 Operating System Engineering\n(6.828)",
+    "school": "MIT",
+    "prof": "A. Belay",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.5820 Computer Networks\n(6.829)",
+    "school": "MIT",
+    "prof": "M. Alizadeh Attar",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.5830 Database Systems\n(6.830)",
+    "school": "MIT",
+    "prof": "S. R. Madden",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.5831 Database Systems\n(6.814)",
+    "school": "MIT",
+    "prof": "S. Madden",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.1900 Introduction to Low-level Programming in C and Assembly\n(6.0004)",
+    "school": "MIT",
+    "prof": "J. Steinmeyer",
+    "semester": "F",
+    "times": "M12.30-2"
+  },
+  {
+    "name": "6.1910 Computation Structures\n(6.004)",
+    "school": "MIT",
+    "prof": "S. Hanono Wachman",
+    "semester": "F",
+    "times": "TR1"
+  },
+  {
+    "name": "6.5900 Computer System Architecture\n(6.823)",
+    "school": "MIT",
+    "prof": "J. Emer",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.2000 Electrical Circuits: Modeling and Design of Physical Systems\n(6.002)",
+    "school": "MIT",
+    "prof": "L. Liu",
+    "semester": "F",
+    "times": "TR11"
+  },
+  {
+    "name": "6.2020[J] Electronics Project Laboratory\n(6.070)",
+    "school": "MIT",
+    "prof": "J. Bales",
+    "semester": "F",
+    "times": "M EVE (7-10 PM)"
+  },
+  {
+    "name": "6.2050 Digital Systems Laboratory\n(6.111)",
+    "school": "MIT",
+    "prof": "J. Steinmeyer",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.2090 Solid-State Circuits\n(6.301)",
+    "school": "MIT",
+    "prof": "N. Reiskarimian",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.2092 Solid-State Circuits\n(6.321)",
+    "school": "MIT",
+    "prof": "N. Reiskarimian",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.6010 Analysis and Design of Digital Integrated Circuits\n(6.374)",
+    "school": "MIT",
+    "prof": "V. Sze",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.2210 Electromagnetic Fields, Forces and Motion\n(6.014)",
+    "school": "MIT",
+    "prof": "J. Lang",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.2220 Power Electronics Laboratory\n(6.131)",
+    "school": "MIT",
+    "prof": "S. B. Leeb",
+    "semester": "F",
+    "times": "TR1"
+  },
+  {
+    "name": "6.2221 Power Electronics Laboratory - Independent Inquiry\n(6.1311)",
+    "school": "MIT",
+    "prof": "S. B. Leeb",
+    "semester": "F",
+    "times": "TR1"
+  },
+  {
+    "name": "6.2222 Power Electronics Laboratory\n(6.330)",
+    "school": "MIT",
+    "prof": "S. B. Leeb",
+    "semester": "F",
+    "times": "TR1"
+  },
+  {
+    "name": "6.6210 Electromagnetic Fields, Forces and Motion\n(6.640)",
+    "school": "MIT",
+    "prof": "J. H. Lang",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.2370 Modern Optics Project Laboratory\n(6.161)",
+    "school": "MIT",
+    "prof": "C. Warde",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.2400 Introduction to Quantum Systems Engineering\n(New)",
+    "school": "MIT",
+    "prof": "K. Berggren, A. Natarajan, K. O'Brien",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.6300 Electromagnetics\n(6.630)",
+    "school": "MIT",
+    "prof": "Q. Hu",
+    "semester": "F",
+    "times": "WF1-2.30"
+  },
+  {
+    "name": "6.6310 Optics and Photonics\n(6.631)",
+    "school": "MIT",
+    "prof": "J. Fujimoto",
+    "semester": "F",
+    "times": "MW3-4.30"
+  },
+  {
+    "name": "6.6330 Fundamentals of Photonics\n(6.621)",
+    "school": "MIT",
+    "prof": "D. R. Englund",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.6331 Fundamentals of Photonics\n(6.602)",
+    "school": "MIT",
+    "prof": "D. R. Englund",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.6370 Optical Imaging Devices, and Systems\n(6.637)",
+    "school": "MIT",
+    "prof": "C. Warde",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.6400 Applied Quantum and Statistical Physics\n(6.728)",
+    "school": "MIT",
+    "prof": "P. Hagelstein",
+    "semester": "F",
+    "times": "WF11-12.30"
+  },
+  {
+    "name": "6.6410[J] Quantum Computation\n(6.445)",
+    "school": "MIT",
+    "prof": "P. Shor",
+    "semester": "F",
+    "times": "MWF1"
+  },
+  {
+    "name": "6.2540 Nanotechnology: From Atoms to Systems\n(New)",
+    "school": "MIT",
+    "prof": "F. Niroui",
+    "semester": "F",
+    "times": "TR10"
+  },
+  {
+    "name": "6.6500[J] Integrated Microelectronic Devices\n(6.720)",
+    "school": "MIT",
+    "prof": "J. Del Alamo",
+    "semester": "F",
+    "times": "MWRF10"
+  },
+  {
+    "name": "6.6630[J] Control of Manufacturing Processes\n(6.780)",
+    "school": "MIT",
+    "prof": "D. Hardt",
+    "semester": "F",
+    "times": "TR11.30-1"
+  },
+  {
+    "name": "6.3000 Signal Processing\n(6.003)",
+    "school": "MIT",
+    "prof": "D. Freeman",
+    "semester": "F",
+    "times": "TR2"
+  },
+  {
+    "name": "6.7000 Discrete-Time Signal Processing\n(6.341)",
+    "school": "MIT",
+    "prof": "J. Ward",
+    "semester": "F",
+    "times": "TR11.30-1"
+  },
+  {
+    "name": "6.3100 Dynamical System Modeling and Control Design\n(6.302)",
+    "school": "MIT",
+    "prof": "K. Chen, J. K. White",
+    "semester": "F",
+    "times": "MW3"
+  },
+  {
+    "name": "6.3102 Dynamical System Modeling and Control Design\n(6.320)",
+    "school": "MIT",
+    "prof": "K. Chen, J. K. White",
+    "semester": "F",
+    "times": "MW3"
+  },
+  {
+    "name": "6.7200[J] Optimization Methods\n(6.255)",
+    "school": "MIT",
+    "prof": "D. Bertsimas, A. Jacquillat",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.7201 Optimization Methods\n(6.215)",
+    "school": "MIT",
+    "prof": "D. Bertsimas",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.7210[J] Introduction to Mathematical Programming\n(6.251)",
+    "school": "MIT",
+    "prof": "P. Jaillet",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.7300[J] Introduction to Modeling and Simulation\n(6.336)",
+    "school": "MIT",
+    "prof": "L. Daniel",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.7330[J] Numerical Methods for Partial Differential Equations\n(6.339)",
+    "school": "MIT",
+    "prof": "J. Peraire",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.7340[J] Fast Methods for Partial Differential and Integral Equations\n(6.335)",
+    "school": "MIT",
+    "prof": "K. Burns",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "6.7410 Principles of Digital Communication\n(6.450)",
+    "school": "MIT",
+    "prof": "M. Medard",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.7411 Principles of Digital Communication\n(New)",
+    "school": "MIT",
+    "prof": "M. Medard",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.7420 Heterogeneous Networks: Architecture, Transport, Proctocols, and Management\n(6.267)",
+    "school": "MIT",
+    "prof": "V. Chan",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.7450[J] Data-Communication Networks\n(6.263)",
+    "school": "MIT",
+    "prof": "E. Modiano",
+    "semester": "F",
+    "times": "F1-4"
+  },
+  {
+    "name": "6.3700 Introduction to Probability\n(6.041)",
+    "school": "MIT",
+    "prof": "L. Zheng",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.3702 Introduction to Probability\n(6.431)",
+    "school": "MIT",
+    "prof": "L. Zheng",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.7700[J] Fundamentals of Probability\n(6.436)",
+    "school": "MIT",
+    "prof": "J. Tsitsiklis",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.3800 Introduction to Inference\n(6.008)",
+    "school": "MIT",
+    "prof": "P. Golland",
+    "semester": "F",
+    "times": "MW10"
+  },
+  {
+    "name": "6.7810 Algorithms for Inference\n(6.438)",
+    "school": "MIT",
+    "prof": "G. Bresler",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "6.3900 Introduction to Machine Learning\n(6.036)",
+    "school": "MIT",
+    "prof": "D. Boning",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.3950 AI, Decision Making, and Society\n(6.404)",
+    "school": "MIT",
+    "prof": "A. Madry",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.3952 AI, Decision Making, and Society\n(New)",
+    "school": "MIT",
+    "prof": "A. Madry",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.7900 Machine Learning\n(6.867)",
+    "school": "MIT",
+    "prof": "T. Jaakkola",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.7910[J] Statistical Learning Theory and Applications\n(6.860)",
+    "school": "MIT",
+    "prof": "T. Poggio",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.7950 Advanced Topics in Control\n(6.246)",
+    "school": "MIT",
+    "prof": "C. Wu",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.4100 Artificial Intelligence\n(6.034)",
+    "school": "MIT",
+    "prof": "K. Koile",
+    "semester": "F",
+    "times": "MWF10"
+  },
+  {
+    "name": "6.4102 Artificial Intelligence\n(6.844)",
+    "school": "MIT",
+    "prof": "K. Koile",
+    "semester": "F",
+    "times": "MWF10"
+  },
+  {
+    "name": "6.4110 Representation, Inference, and Reasoning in AI\n(6.038)",
+    "school": "MIT",
+    "prof": "T. Lozano-Perez",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.4120[J] Computational Cognitive Science\n(6.804)",
+    "school": "MIT",
+    "prof": "J. Tenenbaum",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.4130[J] Principles of Autonomy and Decision Making\n(6.817)",
+    "school": "MIT",
+    "prof": "B.C. Williams",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.4132[J] Principles of Autonomy and Decision Making\n(6.877)",
+    "school": "MIT",
+    "prof": "B.C. Williams",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "6.4210 Robotic Manipulation\n(6.800)",
+    "school": "MIT",
+    "prof": "R. Tedrake",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.4212 Robotic Manipulation\n(6.843)",
+    "school": "MIT",
+    "prof": "R. Tedrake",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.4400 Computer Graphics\n(6.837)",
+    "school": "MIT",
+    "prof": "J. Solomon",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.4420 Computational Design and Fabrication\n(6.807)",
+    "school": "MIT",
+    "prof": "W. Matusik",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.8420 Computational Design and Fabrication\n(6.839)",
+    "school": "MIT",
+    "prof": "W. Matusik",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.4550[J] Interactive Music Systems\n(6.185)",
+    "school": "MIT",
+    "prof": "R. Ahmed",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "6.4570[J] Creating Video Games\n(6.073)",
+    "school": "MIT",
+    "prof": "P. Tan, S. Verrilli, R. Eberhardt, A. Grant",
+    "semester": "F",
+    "times": "TR2-5"
+  },
+  {
+    "name": "6.4590[J] Foundations of Information Policy\n(6.805)",
+    "school": "MIT",
+    "prof": "H. Abelson, R. David Edelman, M. Fischer, D. Weitzner",
+    "semester": "F",
+    "times": "R1-3"
+  },
+  {
+    "name": "6.8700[J] Advanced Computational Biology: Genomes, Networks, Evolution\n(6.878)",
+    "school": "MIT",
+    "prof": "M. Kellis",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.8701 Computational Biology: Genomes, Networks, Evolution\n(6.047)",
+    "school": "MIT",
+    "prof": "M. Kellis",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.8720[J] Principles of Synthetic Biology\n(6.589)",
+    "school": "MIT",
+    "prof": "R. Weiss",
+    "semester": "F",
+    "times": "TR2-3.30"
+  },
+  {
+    "name": "6.8721[J] Principles of Synthetic Biology\n(6.580)",
+    "school": "MIT",
+    "prof": "R. Weiss",
+    "semester": "F",
+    "times": "TR2-3.30"
+  },
+  {
+    "name": "6.4832[J] Fields, Forces, and Flows in Biological Systems\n(6.561)",
+    "school": "MIT",
+    "prof": "M. Bathe, B. Bryson, A. Hansen",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "6.8370 Advanced Computational Photography\n(6.865)",
+    "school": "MIT",
+    "prof": "F. P. Durand",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.8371 Digital and Computational Photography\n(6.815)",
+    "school": "MIT",
+    "prof": "F. Durand",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.8610 Quantitative Methods for Natural Language Processing\n(6.864)",
+    "school": "MIT",
+    "prof": "Y. Kim",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.8611 Quantitative Methods for Natural Language Processing\n(6.806)",
+    "school": "MIT",
+    "prof": "Y. Kim",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "6.9020[J] How to Make (Almost) Anything\n(6.943)",
+    "school": "MIT",
+    "prof": "N. Gershenfeld",
+    "semester": "F",
+    "times": "W1-4"
+  },
+  {
+    "name": "6.9030 Strobe Project Laboratory\n(6.163)",
+    "school": "MIT",
+    "prof": "J. Bales",
+    "semester": "F",
+    "times": "MW12"
+  },
+  {
+    "name": "6.UAR Seminar in Undergraduate Advanced Research",
+    "school": "MIT",
+    "prof": "D. Katabi",
+    "semester": "F",
+    "times": "R4"
+  },
+  {
+    "name": "6.UAT Oral Communication",
+    "school": "MIT",
+    "prof": "T. Eng",
+    "semester": "F",
+    "times": "MW10"
+  },
+  {
+    "name": "6.9101[J] Introduction to Design Thinking and Innovation in Engineering\n(6.9021)",
+    "school": "MIT",
+    "prof": "C. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "6.910A Design Thinking and Innovation Leadership for Engineers\n(6.902A)",
+    "school": "MIT",
+    "prof": "B. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "6.910B Design Thinking and Innovation Project\n(6.902B)",
+    "school": "MIT",
+    "prof": "B. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "6.9120 Engineering Leadership\n(6.912)",
+    "school": "MIT",
+    "prof": "J. Magarian",
+    "semester": "F",
+    "times": "M11-12.30"
+  },
+  {
+    "name": "6.9160[J] Engineering Innovation: Moving Ideas to Impact\n(6.901)",
+    "school": "MIT",
+    "prof": "V. Bulovic",
+    "semester": "F",
+    "times": "TR9-10.30"
+  },
+  {
+    "name": "6.9270 Negotiation and Influence Skills for Technical Leaders\n(6.927)",
+    "school": "MIT",
+    "prof": "D. Nino, J. Wu",
+    "semester": "F",
+    "times": "M9-11"
+  },
+  {
+    "name": "6.9280[J] Leading Creative Teams\n(6.928)",
+    "school": "MIT",
+    "prof": "D. Nino, J. Wu",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "6.9320 Ethics for Engineers\n(6.904)",
+    "school": "MIT",
+    "prof": "B. L. Trout,  P. Hansen, D. Lauffenberger, K. Hansen",
+    "semester": "F",
+    "times": "M3-5"
+  },
+  {
+    "name": "6.9360 Management in Engineering\n(6.930)",
+    "school": "MIT",
+    "prof": "J-H Chun, A. Weiss",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "6.9932 Introduction to Research in Electrical Engineering and Computer Science\n(6.961)",
+    "school": "MIT",
+    "prof": "L. Kolodziejski",
+    "semester": "F",
+    "times": "M EVE (4-6 PM)"
+  },
+  {
+    "name": "6.9970 Academic Job Search\n(New)",
+    "school": "MIT",
+    "prof": "S. Amarasinghe",
+    "semester": "F",
+    "times": "T EVE (4.30-6.30 PM)"
+  },
+  {
+    "name": "6.UAR Seminar in Undergraduate Advanced Research",
+    "school": "MIT",
+    "prof": "D. Katabi",
+    "semester": "F",
+    "times": "R4"
+  },
+  {
+    "name": "6.UAT Oral Communication",
+    "school": "MIT",
+    "prof": "T. Eng",
+    "semester": "F",
+    "times": "MW10"
+  },
+  {
+    "name": "6.S077 Special Subject in Electrical Engineering and Computer Science",
+    "school": "MIT",
+    "prof": "J. Steinmeyer",
+    "semester": "F",
+    "times": "M12.30-2"
+  },
+  {
+    "name": "6.S083 Special Subject in Electrical Engineering and Computer Science",
+    "school": "MIT",
+    "prof": "A. Edelman",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.S084 Special Subject in Electrical Engineering and Computer Science",
+    "school": "MIT",
+    "prof": "P. Parrilo",
+    "semester": "F",
+    "times": "MWF1"
+  },
+  {
+    "name": "6.S898 Special Subject in Computer Science",
+    "school": "MIT",
+    "prof": "P. Isola",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.S963-6.S967 Special Studies: EECS",
+    "school": "MIT",
+    "prof": "TR2.30-4",
+    "semester": "F",
+    "times": "TR3.30-5"
+  },
+  {
+    "name": "6.S974 Special Subject in Electrical Engineering and Computer Science",
+    "school": "MIT",
+    "prof": "R. Williams",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.S977 Special Subject in Electrical Engineering and Computer Science",
+    "school": "MIT",
+    "prof": "S. Hopkins",
+    "semester": "F",
+    "times": "F9.30-12.30"
+  },
+  {
+    "name": "6.S980 Special Subject in Electrical Engineering and Computer Science\n(New)",
+    "school": "MIT",
+    "prof": "V. Sitzmann",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "6.S981 Special Subject in Electrical Engineering and Computer Science\n(New)",
+    "school": "MIT",
+    "prof": "A. Solar Lezama",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "6.S982 Special Subject in Electrical Engineering and Computer Science\n(New)",
+    "school": "MIT",
+    "prof": "M. Ghassemi",
+    "semester": "F",
+    "times": "F9.30-12.30"
+  }
+]
