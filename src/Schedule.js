@@ -16,7 +16,6 @@ import {
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
 import { useCookies } from 'react-cookie';
-import {getMITCourses} from "./MITCoursePickerParser";
 import {parseCoursesJsons} from "./MITCourseCatalogParser";
 
 
