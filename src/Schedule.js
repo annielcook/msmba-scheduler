@@ -17,6 +17,9 @@ import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
 import { useCookies } from 'react-cookie';
 import {parseCoursesJsons} from "./MITCourseCatalogParser";
+import Snackbar from "@mui/material/Snackbar";
+import {Alert} from "@mui/material";
+
 
 
 function Schedule() {
@@ -24,6 +27,7 @@ function Schedule() {
     const [favorites, setFavorites] = React.useState(Object.keys(cookies).length === 0 ? [] : cookies.Favorites);
     const [show, setShow] = React.useState(Object.keys(cookies).length === 0 ? [] : cookies.Show);
     const [allCourses, updateAllCourses] = React.useState({});
+    const [showMitAlert, setShowMitAlert] = React.useState(false);
 
 
     React.useEffect(() => {
@@ -50,6 +54,22 @@ function Schedule() {
         return <p>Loading...</p>;
     }
 
+    const handleClosePopup = (event, reason) => {
+        if (reason === 'clickaway') {
+            return;
+        }
+        setShowMitAlert(false);
+    };
+
+    const mitPopup = (
+        <Snackbar open={showMitAlert} autoHideDuration={6000} onClose={handleClosePopup}>
+            <Alert onClose={handleClosePopup} severity="info" sx={{ width: '100%' }}>
+                Note: This course might have extra required lab / recitation hours.
+                For more information, check <a href={"http://student.mit.edu/catalog/index.cgi"} target="_blank" rel="noreferrer">MIT course catalog</a>.
+            </Alert>
+        </Snackbar>
+    )
+
     const coursePicker = (
         <CourseList items={Object.values(allCourses)}
                     checked={favorites}
@@ -61,6 +81,9 @@ function Schedule() {
                         if (currentIndexFavs === -1) {
                             newFavorites.push(course.id);
                             newFavorites.sort();
+                            if (course.school === "MIT") {
+                                setShowMitAlert(true);
+                            }
                         } else {
                             newFavorites.splice(currentIndexFavs, 1);
                             const currentIndexShow = show.indexOf(course.id);
@@ -96,21 +119,25 @@ function Schedule() {
         />);
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={1}>
+            {mitPopup}
             <Grid item xs={3}>
                 <p>All Courses</p>
-                <Paper style={{maxHeight: "100vh", overflow: 'auto'}}>
+                <Paper style={{maxHeight: "90vh", overflow: 'auto'}}>
                     {coursePicker}
                 </Paper>
             </Grid>
             <Grid item xs={3}>
                 <p>Favorites</p>
-                <Paper style={{maxHeight: "100vh", overflow: 'auto'}}>
+                <Paper style={{maxHeight: "90vh", overflow: 'auto'}}>
                     {chosenCourses}
                 </Paper>
             </Grid>
             <Grid item xs={6}>
                 <Calendar courses={show.map((courseId) => allCourses[courseId]).concat(requiredCoursesJson)}/>
+            </Grid>
+            <Grid item xs={12}>
+                <p>Created by <a href={'mailto:sasael@mba2023.hbs.edu'}>sasael@mba2023.hbs.edu</a></p>
             </Grid>
         </Grid>
     );
