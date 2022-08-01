@@ -11,13 +11,13 @@ import {
     seasCoursesListJson,
     seasCoursesScheduleJson,
     requiredCoursesJson,
-    mitCoursesJsonURL,
-    mitCoursesScheduleJson
+    mitJsons,
 } from "./Consts";
 import {getSEASCoursesFromJsons} from "./SEASCourses";
 import {HBSCoursesCsv} from './static/courses/HBS-2022'; // TODO: fix load of original CSV file
 import { useCookies } from 'react-cookie';
-import {getMITCourses} from "./MITCourses";
+import {getMITCourses} from "./MITCoursePickerParser";
+import {parseCoursesJsons} from "./MITCourseCatalogParser";
 
 
 function Schedule() {
@@ -31,7 +31,7 @@ function Schedule() {
         const getAllCourses = async () => {
             const hbsCourses = await parseCourses(HBSCoursesCsv);
             const seasCourses = await getSEASCoursesFromJsons(seasCoursesListJson, seasCoursesScheduleJson);
-            const mitCourses = await getMITCourses(mitCoursesScheduleJson);
+            const mitCourses = await parseCoursesJsons(mitJsons);
             let coursesMap = {};
             for (const course of hbsCourses) {
                 coursesMap[course.id] = course;

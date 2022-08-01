@@ -23,7 +23,7 @@ export default function CheckboxListSecondary(props) {
                 {items.map((course) => {
                     return (
                         <CourseItem
-                            key={`${course.name}-${course.prof}-${course.timeText}`}
+                            key={course.id}
                             checked={checked.indexOf(course.id) !== -1}
                             toggleCallback={toggleCallback(course)}
                             selectIcon={selectIcon}

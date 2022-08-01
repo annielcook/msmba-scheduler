@@ -1,4 +1,4 @@
-import {exportedForTesting} from "./MITCourses";
+import {exportedForTesting} from "./MITCoursePickerParser";
 
 const {getAllCourses, parseCourse} = exportedForTesting;
 
