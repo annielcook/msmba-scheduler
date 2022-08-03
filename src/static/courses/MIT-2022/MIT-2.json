@@ -1,0 +1,646 @@
+[
+  {
+    "name": "2.00 Introduction to Design",
+    "school": "MIT",
+    "prof": "M. Yang",
+    "semester": "F",
+    "times": "MW3.30-5"
+  },
+  {
+    "name": "2.001 Mechanics and Materials I",
+    "school": "MIT",
+    "prof": "S. Socrate",
+    "semester": "F",
+    "times": "TR10.30-12.30"
+  },
+  {
+    "name": "2.003[J] Dynamics and Control I",
+    "school": "MIT",
+    "prof": "F. Hover",
+    "semester": "F",
+    "times": "TR9-10.30"
+  },
+  {
+    "name": "2.004 Dynamics and Control II",
+    "school": "MIT",
+    "prof": "D. Del Vecchio",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.005 Thermal-Fluids Engineering I",
+    "school": "MIT",
+    "prof": " A. Henry",
+    "semester": "F",
+    "times": "MW9-11"
+  },
+  {
+    "name": "2.006 Thermal-Fluids Engineering II",
+    "school": "MIT",
+    "prof": "R. Karnik, B. Gallant",
+    "semester": "F",
+    "times": "MW9.30-11,F9"
+  },
+  {
+    "name": "2.008 Design and Manufacturing II",
+    "school": "MIT",
+    "prof": "D. Wendell",
+    "semester": "F",
+    "times": "W2-5"
+  },
+  {
+    "name": "2.009 The Product Engineering Process",
+    "school": "MIT",
+    "prof": "D. Wallace",
+    "semester": "F",
+    "times": "MF1,T11"
+  },
+  {
+    "name": "2.013 Engineering Systems Design",
+    "school": "MIT",
+    "prof": "D. Hart",
+    "semester": "F",
+    "times": "TR2.30-5"
+  },
+  {
+    "name": "2.016 Hydrodynamics",
+    "school": "MIT",
+    "prof": "A. Techet",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.086 Numerical Computation for Mechanical Engineers",
+    "school": "MIT",
+    "prof": "N. Hadjiconstantinou",
+    "semester": "F",
+    "times": "MW12"
+  },
+  {
+    "name": "2.032 Dynamics",
+    "school": "MIT",
+    "prof": "T. Akylas",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.050[J] Nonlinear Dynamics: Chaos",
+    "school": "MIT",
+    "prof": "D. Rothman",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.060[J] Structural Dynamics",
+    "school": "MIT",
+    "prof": "T. Cohen",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.072 Mechanics of Continuous Media",
+    "school": "MIT",
+    "prof": "L. Anand",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "2.074 Solid Mechanics: Elasticity",
+    "school": "MIT",
+    "prof": "R. Abeyaratne",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.075 Mechanics of Soft Materials",
+    "school": "MIT",
+    "prof": "X. Zhao",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "2.080[J] Structural Mechanics",
+    "school": "MIT",
+    "prof": "D. Parks",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "2.096[J] Introduction to Modeling and Simulation",
+    "school": "MIT",
+    "prof": "L. Daniel",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.097[J] Numerical Methods for Partial Differential Equations",
+    "school": "MIT",
+    "prof": "J. Peraire",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.110 Information, Entropy, and Computation",
+    "school": "MIT",
+    "prof": "S. Lloyd",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.111[J] Quantum Computation",
+    "school": "MIT",
+    "prof": "P. Shor",
+    "semester": "F",
+    "times": "MWF1"
+  },
+  {
+    "name": "2.151 Advanced System Dynamics and Control",
+    "school": "MIT",
+    "prof": "N. Hogan",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.154 Maneuvering and Control of Surface  and Underwater Vehicles",
+    "school": "MIT",
+    "prof": "N. Patrikalakis",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.160 Identification, Estimation, and Learning",
+    "school": "MIT",
+    "prof": "H. Asada",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.165[J] Robotics",
+    "school": "MIT",
+    "prof": "J-J Slotine",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.171 Analysis and Design of Digital Control Systems",
+    "school": "MIT",
+    "prof": "D. L. Trumper",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "2.20 Marine Hydrodynamics",
+    "school": "MIT",
+    "prof": "D. Yue",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.25 Fluid Mechanics",
+    "school": "MIT",
+    "prof": "G. Mckinley",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.42 General Thermodynamics",
+    "school": "MIT",
+    "prof": "W. Cheng",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.51 Intermediate Heat and Mass Transfer",
+    "school": "MIT",
+    "prof": "A. Patera",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.59[J] Thermal Hydraulics in Power Technology",
+    "school": "MIT",
+    "prof": "M. Bucci",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.611 Marine Power and Propulsion",
+    "school": "MIT",
+    "prof": "R. McCord",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.612 Marine Power and Propulsion",
+    "school": "MIT",
+    "prof": "R. Mccord",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.625[J] Electrochemical Energy Conversion and Storage: Fundamentals, Materials and Applications",
+    "school": "MIT",
+    "prof": "Y. Shao-Horn",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "2.65[J] Sustainable Energy",
+    "school": "MIT",
+    "prof": "M. Golay",
+    "semester": "F",
+    "times": "TR3.30-5"
+  },
+  {
+    "name": "2.650[J] Introduction to Sustainable Energy",
+    "school": "MIT",
+    "prof": "M. Golay",
+    "semester": "F",
+    "times": "TR3.30-5"
+  },
+  {
+    "name": "2.652[J] Applications of Energy in Global Development",
+    "school": "MIT",
+    "prof": "Eric Verploegen, Staff",
+    "semester": "F",
+    "times": "TR3-5"
+  },
+  {
+    "name": "2.671 Measurement and Instrumentation",
+    "school": "MIT",
+    "prof": "B. Hughey",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.673[J] Instrumentation and Measurement for Biological Systems",
+    "school": "MIT",
+    "prof": "S. Manalis, P. Blainey, M. Jonas, S. Wasserman, Kevin Ly",
+    "semester": "F",
+    "times": "TR12"
+  },
+  {
+    "name": "2.675 Micro/Nano Engineering Laboratory",
+    "school": "MIT",
+    "prof": "Gopinath",
+    "semester": "F",
+    "times": "T2"
+  },
+  {
+    "name": "2.676 Micro/Nano Engineering Laboratory",
+    "school": "MIT",
+    "prof": "A. Gopinath",
+    "semester": "F",
+    "times": "T2"
+  },
+  {
+    "name": "2.678 Electronics for Mechanical Systems",
+    "school": "MIT",
+    "prof": "D. Frey, S. Banzaert",
+    "semester": "F",
+    "times": "MW11"
+  },
+  {
+    "name": "2.700 Principles of Naval Architecture",
+    "school": "MIT",
+    "prof": "J. Leghorn and P. Sclavounos",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.701 Principles of Naval Architecture",
+    "school": "MIT",
+    "prof": "J. Leghorn, P. Sclavanous",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.703 Principles of Naval Ship Design",
+    "school": "MIT",
+    "prof": "D. Jonart",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.71 Optics",
+    "school": "MIT",
+    "prof": "N. Fang",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.710 Optics",
+    "school": "MIT",
+    "prof": "N. Fang",
+    "semester": "F",
+    "times": "MW9.30-11"
+  },
+  {
+    "name": "2.70 FUNdaMENTALS of Precision Product Design",
+    "school": "MIT",
+    "prof": "A. Slocum",
+    "semester": "F",
+    "times": "MW12.30-2"
+  },
+  {
+    "name": "2.77 FUNdaMENTALS of Precision Product Design",
+    "school": "MIT",
+    "prof": "M. Culpepper",
+    "semester": "F",
+    "times": "MW12.30-2"
+  },
+  {
+    "name": "2.7231[J] Introduction to Design Thinking and Innovation in Engineering",
+    "school": "MIT",
+    "prof": "C. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "2.723A Design Thinking and Innovation Leadership for Engineers",
+    "school": "MIT",
+    "prof": "B. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "2.723B Design Thinking and Innovation Project",
+    "school": "MIT",
+    "prof": "B. Kotelly",
+    "semester": "F",
+    "times": "M EVE (7-9 PM)"
+  },
+  {
+    "name": "2.729[J] D-Lab: Design for Scale",
+    "school": "MIT",
+    "prof": "M. Yang, G. Connors, E. Young",
+    "semester": "F",
+    "times": "TR11.30-1"
+  },
+  {
+    "name": "2.74 Bio-inspired Robotics",
+    "school": "MIT",
+    "prof": "S. Kim",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.740 Bio-inspired Robotics",
+    "school": "MIT",
+    "prof": "S. Kim",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.76 Global Engineering",
+    "school": "MIT",
+    "prof": "A. Winter",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.760 Global Engineering",
+    "school": "MIT",
+    "prof": "A. Winter",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.772[J] Thermodynamics of Biomolecular Systems",
+    "school": "MIT",
+    "prof": "M. Birnbaum, C. Voigt",
+    "semester": "F",
+    "times": "MWF10"
+  },
+  {
+    "name": "2.777 Large and Complex Systems Design and Concept Development",
+    "school": "MIT",
+    "prof": "S. Kim",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.778 Large and Complex Systems Design and Concept Development",
+    "school": "MIT",
+    "prof": "S. G. Kim",
+    "semester": "F",
+    "times": "TR1-2.30"
+  },
+  {
+    "name": "2.772[J] Thermodynamics of Biomolecular Systems",
+    "school": "MIT",
+    "prof": "M. Birnbaum, C. Voigt",
+    "semester": "F",
+    "times": "MWF10"
+  },
+  {
+    "name": "2.787[J] Tissue Engineering and Organ Regeneration",
+    "school": "MIT",
+    "prof": "M. Spector, I. V. Yannas",
+    "semester": "F",
+    "times": "TR11-12.30"
+  },
+  {
+    "name": "2.788 Mechanical Engineering and Design of Living Systems",
+    "school": "MIT",
+    "prof": "M. Kolle, M. Guo",
+    "semester": "F",
+    "times": "TR10.30-12"
+  },
+  {
+    "name": "2.789[J] D-Lab: Design for Scale",
+    "school": "MIT",
+    "prof": "M. Yang, H. Quintus-Bosz, S. Grama",
+    "semester": "F",
+    "times": "TR11.30-1"
+  },
+  {
+    "name": "2.79[J] Biomaterials: Tissue Interactions",
+    "school": "MIT",
+    "prof": "I. V. Yannas, M. Spector",
+    "semester": "F",
+    "times": "TR2.30-4"
+  },
+  {
+    "name": "2.795[J] Fields, Forces, and Flows in Biological Systems",
+    "school": "MIT",
+    "prof": "M. Bathe, B. Bryson, A. Hansen",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.810 Manufacturing Processes and Systems",
+    "school": "MIT",
+    "prof": "D. Wendell",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.821[J] Structural Materials",
+    "school": "MIT",
+    "prof": "T. Eagar",
+    "semester": "F",
+    "times": "MWF9"
+  },
+  {
+    "name": "2.830[J] Control of Manufacturing Processes",
+    "school": "MIT",
+    "prof": "D. Hardt",
+    "semester": "F",
+    "times": "TR11.30-1"
+  },
+  {
+    "name": "2.853 Introduction to Manufacturing Systems",
+    "school": "MIT",
+    "prof": "B. Anthony",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.854 Introduction to Manufacturing Systems",
+    "school": "MIT",
+    "prof": "B. Anthony",
+    "semester": "F",
+    "times": "TR9.30-11"
+  },
+  {
+    "name": "2.890[J] Global Operations Leadership Seminar",
+    "school": "MIT",
+    "prof": "T. Roemer",
+    "semester": "F",
+    "times": "M EVE (4-6 PM)"
+  },
+  {
+    "name": "2.351[J] Introduction to Making",
+    "school": "MIT",
+    "prof": "M. Cameron, A. Jay, J. Hunt",
+    "semester": "F",
+    "times": "T1-2.30"
+  },
+  {
+    "name": "2.900 Ethics for Engineers",
+    "school": "MIT",
+    "prof": "B. L. Trout,  P. Hansen, D. Lauffenberger, K. Hansen",
+    "semester": "F",
+    "times": "M3-5"
+  },
+  {
+    "name": "2.907[J] Innovation Teams",
+    "school": "MIT",
+    "prof": "L. Perez-Breva, D. Hart",
+    "semester": "F",
+    "times": "TR1-3"
+  },
+  {
+    "name": "2.96 Management in Engineering",
+    "school": "MIT",
+    "prof": "J-H Chun, A. Weiss",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.961 Management in Engineering",
+    "school": "MIT",
+    "prof": "J-H Chun, A. Weiss",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.98 Sports Technology: Engineering & Innovation",
+    "school": "MIT",
+    "prof": "A. Hosoi, C. Chase",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.980 Sports Technology: Engineering & Innovation",
+    "school": "MIT",
+    "prof": "A. Hosoi, C. Chase",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.991 Introduction to Graduate Study in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "C. Buie",
+    "semester": "F",
+    "times": "F1"
+  },
+  {
+    "name": "2.996 Advanced Topics in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "M. Culpepper",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.S796 Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "MW1-2.30",
+    "semester": "F",
+    "times": "TBA"
+  },
+  {
+    "name": "2.S885 Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "T. Gutowski",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.S972 Undergraduate Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "K. Zolot",
+    "semester": "F",
+    "times": "F1.30-4.30"
+  },
+  {
+    "name": "2.S984 Graduate Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "K. Varanasi",
+    "semester": "F",
+    "times": "MW11-12.30"
+  },
+  {
+    "name": "2.S985 Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "T. Gutowski",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.S988 Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "C. Traverso",
+    "semester": "F",
+    "times": "MW2.30-4"
+  },
+  {
+    "name": "2.S995 Undergraduate Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "I. Hunter",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.S997 Graduate Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "F. Ahmed",
+    "semester": "F",
+    "times": "MW1-2.30"
+  },
+  {
+    "name": "2.S998 Graduate Special Subject in Mechanical Engineering",
+    "school": "MIT",
+    "prof": "Hunter, Ian",
+    "semester": "F",
+    "times": "TR12.30-2"
+  },
+  {
+    "name": "2.C01 Physical Systems Modeling and Design Using Machine Learning",
+    "school": "MIT",
+    "prof": "G. Barbastathis",
+    "semester": "F",
+    "times": "F11"
+  }
+]

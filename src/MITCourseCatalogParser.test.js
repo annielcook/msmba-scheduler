@@ -1,4 +1,4 @@
-import {parseCourse} from "./MITCourseCatalogParser";
+import {parseCourse, parseCoursesJsons} from "./MITCourseCatalogParser";
 
 
 const dummyJson = [
@@ -73,4 +73,8 @@ test('Parse catalog course', () => {
             }
         ])
     );
+});
+
+test('Parse Course 2', () => {
+    const results = parseCoursesJsons([require('./static/courses/MIT-2022/MIT-2.json')]);
 });

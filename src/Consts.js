@@ -8,6 +8,7 @@ export const mitCoursesScheduleJson = require('./static/courses/MIT-2022.json');
 export const requiredCoursesJson = require('./static/courses/MSMBA-ENG-Required-2022.json');
 
 export const mitJsons = [
+    require('./static/courses/MIT-2022/MIT-2.json'),
     require('./static/courses/MIT-2022/MIT-6.json'),
     require('./static/courses/MIT-2022/MIT-16.json'),
     require('./static/courses/MIT-2022/MIT-18.json')];

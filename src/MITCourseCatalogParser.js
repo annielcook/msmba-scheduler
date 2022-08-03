@@ -3,6 +3,9 @@ import {parseCourseTime} from "./MITCourses";
 
 
 export function parseCourse(courseData) {
+    if (courseData.times.includes('TBA')) {
+        return null;
+    }
     const times = parseCourseTime(courseData.times)
     return {
         id: `MIT-${courseData.name.split(" ")[0]}`,
@@ -20,4 +23,5 @@ export function parseCoursesJsons(jsons) {
         courses => (courses.map(
             course => (parseCourse(course)))))
         .flat()
+        .filter(course => (course !== null));
 }
