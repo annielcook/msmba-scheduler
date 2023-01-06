@@ -54,6 +54,28 @@ function Schedule() {
         return <p>Loading...</p>;
     }
 
+    // Remove old favorites that don't exist in current course list
+    let updatedFavorites = [];
+    let updatedShow = [];
+    let change = false;
+    for (const fav of favorites) {
+        if (fav in allCourses) {
+            updatedFavorites.push(fav);
+            if (show.includes(fav)) {
+                updatedShow.push(fav);
+            }
+        } else {
+            console.log(`Course #${fav} not found`);
+            change = true;
+        }
+    }
+    if (change) {
+        setFavorites(updatedFavorites);
+        setShow(updatedShow);
+        setCookie('Favorites', updatedFavorites, { path: '/' });
+        setCookie('Show', updatedShow, { path: '/' });
+    }
+
     const handleClosePopup = (event, reason) => {
         if (reason === 'clickaway') {
             return;

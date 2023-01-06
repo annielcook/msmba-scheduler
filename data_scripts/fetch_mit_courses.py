@@ -5,18 +5,6 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-MIT_COURSE_6_URLS = [
-    'http://student.mit.edu/catalog/m6a.html',
-    'http://student.mit.edu/catalog/m6b.html',
-    'http://student.mit.edu/catalog/m6c.html',
-    'http://student.mit.edu/catalog/m6d.html',
-    'http://student.mit.edu/catalog/m6e.html'
-]
-MIT_COURSE_18_URLS = [
-    'http://student.mit.edu/catalog/m18a.html',
-    'http://student.mit.edu/catalog/m18b.html',
-]
-
 PAGES = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
 BASIC_COURSE_URL = lambda course, page: f'http://student.mit.edu/catalog/m{course}{PAGES[page]}.html'
 
@@ -86,4 +74,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     download_courses(args.courses, args.output_dir)
-
